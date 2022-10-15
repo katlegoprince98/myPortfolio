@@ -72,8 +72,8 @@ span{
     margin-left: 50px
 }
 .pic{
-    width: 510px;
-    height: 550px;
+    width: 450px;
+    height: 450px;
     margin-left: 460px;
 }
 .about{
@@ -103,4 +103,94 @@ span{
     font-size: 60px;
     text-transform: capitalize;
     font-family: sans-serif;
+}
+.container-xxl
+{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    background-color: #ffffff;
+    
+}
+#contact{
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 40px 0;
+    
+    
+}
+#contact .icons{
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+#contact .icons a{
+    font-size: 36px;
+    color: orange;
+    border: 1px solid #ccc;
+    width: 60px;
+    height: 60px;
+    line-height: 48px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+
+   
+}
+#contact .icons a:hover{
+    opacity: 0.9;
+    color: purple;
+}
+#contact ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+#contact ul li a{
+    color: purple;
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+#contact ul li{
+   display: inline-block;
+   padding: 0 15px;
+
+}
+#contact ul li a:hover{
+    color: orange;
+    opacity: 0.9;
+}
+.by{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 28px;
+    color: orange;
+    font-style: italic;
+}
+.by:hover{
+    color: purple;
+   
+    
+}
+.txt{
+    margin-top: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.txt h1{
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+.txt p{
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
