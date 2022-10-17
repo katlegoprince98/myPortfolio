@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding:0;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .info{
     position: relative;
@@ -12,14 +12,16 @@
 .logo{
     width: 80px;
     height: 80px;
+    margin-left: 6%;
 }
 nav{
     display: flex;
-    width:84%;
+    width:100%;
     margin:auto;
     padding:20px 0;
     align-items: center;
     justify-content:space-between;
+    background-color: purple;
 }
 nav ul li{
     display: inline-block;
@@ -28,7 +30,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration:none;
-    color: purple;
+    color: orange;
     font-weight: bold;
 
 
@@ -72,19 +74,21 @@ span{
     margin-left: 50px
 }
 .pic{
-    width: 450px;
-    height: 450px;
-    margin-left: 460px;
+    width: 98%;
+    height: 76%;
+    margin-left: 480px;
 }
 .about{
     width:100%;
     padding: 78px 0px;
     background-color: white;
-    margin-left: 25px;
+    margin-left: 50px;
+    
+    
 
 }
 .mine{
-    width:420px;
+    width:55%;
     height: auto;
 }
 .main{
@@ -97,12 +101,19 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 .about h1{
     color: purple;
     font-size: 60px;
     text-transform: capitalize;
     font-family: sans-serif;
+    background-color: orange;
+}
+.about  p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
 }
 .container-xxl
 {
@@ -178,13 +189,15 @@ span{
    
     
 }
+
 .txt{
-    margin-top: 0;
+    margin-top: 110px;
     padding: 0;
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 0;
     text-align: center;
+    background-color: purple;
 }
 .txt h1{
     color: orange;
@@ -193,4 +206,8 @@ span{
 .txt p{
     color: purple;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.devider{
+    background-color: orange;
+    width: 100%;
 }
